@@ -1,0 +1,158 @@
+/**
+ * 中国語学習アプリ データ設定ファイル
+ * 
+ * 新しいアプリを追加したい場合は、以下の配列にオブジェクトを追加するだけで自動反映されます。
+ */
+const CHINESE_APPS_DATA = [
+  {
+    id: "name-checker",
+    title: "中国語名前チェッカー",
+    subtitle: "中文姓名拼音转换与发音",
+    category: "tools", // "grammar" | "speaking" | "tools" | "comprehensive" | "teacher"
+    categoryName: "ツール・発音",
+    level: "all", // "all" | "beginner" | "intermediate" | "advanced"
+    levelName: "入門〜全レベル",
+    hskLevel: "HSK1+",
+    icon: "fa-id-card",
+    iconColor: "text-sky-600 bg-sky-50 dark:bg-sky-950/30",
+    badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+    url: "https://script.google.com/macros/s/AKfycbyOIG9DZtD_z-8CrB800megG-7g_cXJgDwbghtpZURWPX2MZnDJwi30vKHDfAxCRDA/exec",
+    description: "日本人の名前や漢字の中国語読み（ピンイン・声調）を瞬時に確認できる便利ツール。自己紹介の準備に最適です。",
+    teacherNote: "最初の授業で「自分の名前を中国語でどう発音するか」を調べるのに大活躍します！",
+    isFeatured: true,
+    tags: ["名前", "ピンイン", "声調", "自己紹介", "ツール"],
+    estimatedTime: "1〜3分"
+  },
+  {
+    id: "yufa-grammar",
+    title: "文法 4択クイズ (YUFA)",
+    subtitle: "语法四选一专项训练",
+    category: "grammar",
+    categoryName: "文法・クイズ",
+    level: "beginner",
+    levelName: "初級〜中級",
+    hskLevel: "HSK1-3級",
+    icon: "fa-spell-check",
+    iconColor: "text-blue-600 bg-blue-50 dark:bg-blue-950/30",
+    badgeColor: "bg-blue-100 text-blue-800 border-blue-200",
+    url: "https://tamagenai.github.io/YUFA/",
+    description: "中国語の文法や語彙を4択クイズ形式でサクサク実践・復習できる問題集アプリ。解説付きで理解が深まります。",
+    teacherNote: "授業で習った文法の定着度チェックや、テスト前の復習用におすすめです。",
+    isFeatured: true,
+    tags: ["文法", "4択クイズ", "問題演習", "HSK対策", "解説付き"],
+    estimatedTime: "5〜10分"
+  },
+  {
+    id: "banban-series",
+    title: "BANBAN3種 (棒棒！中国語)",
+    subtitle: "棒棒汉语 综合训练系列",
+    category: "comprehensive",
+    categoryName: "総合トレーニング",
+    level: "beginner",
+    levelName: "初級〜中級",
+    hskLevel: "HSK1-4級",
+    icon: "fa-cubes",
+    iconColor: "text-emerald-600 bg-emerald-50 dark:bg-emerald-950/30",
+    badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    url: "https://tamagenai.github.io/BANBAN/",
+    description: "「棒棒！中国語」学習アプリ集（3種・マニュアル付き）。多角的なアプローチで総合力をグングン伸ばす学習シリーズです。",
+    teacherNote: "PWA対応でスマホのホーム画面に追加可能！毎日のスキマ学習にぴったり。",
+    isFeatured: true,
+    tags: ["総合", "シリーズ", "PWA対応", "自主学習", "実践"],
+    estimatedTime: "10〜15分"
+  },
+  {
+    id: "ziyou-shuoshuo",
+    title: "自由説中文 (Speak Freely!)",
+    subtitle: "自由说中文 · 语音识别口语练习",
+    category: "speaking",
+    categoryName: "スピーキング・会話",
+    level: "intermediate",
+    levelName: "初級〜上級",
+    hskLevel: "HSK2-5級",
+    icon: "fa-microphone-lines",
+    iconColor: "text-teal-600 bg-teal-50 dark:bg-teal-950/30",
+    badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+    url: "https://tamagenai.github.io/ZiyouShuoshuo/",
+    description: "高精度な音声認識を活用し、自由に中国語を話して発音や流暢さを鍛えるスピーキング特化型アプリ。",
+    teacherNote: "声に出して話す練習に最適！パンダの可愛い画面で楽しくスピーキング特訓ができます。",
+    isFeatured: true,
+    tags: ["スピーキング", "音声認識", "発音チェック", "会話", "パンダ"],
+    estimatedTime: "5〜10分"
+  },
+  {
+    id: "teacher-roster",
+    title: "教員用 中国語名簿App",
+    subtitle: "教师专用 中文花名册管理系统",
+    category: "teacher",
+    categoryName: "教員用・名簿",
+    level: "all",
+    levelName: "教員・管理者",
+    hskLevel: "教員専用",
+    icon: "fa-clipboard-user",
+    iconColor: "text-indigo-600 bg-indigo-50 dark:bg-indigo-950/30",
+    badgeColor: "bg-indigo-100 text-indigo-800 border-indigo-200",
+    url: "https://script.google.com/macros/s/AKfycbzeE1gazRvBvgEDT-Y9up9yx-GW4q36gHemRA1ex09KNuzdlrG6A-C0tyJ0izbAFoYf/exec",
+    description: "学生の氏名・中国語表記・ピンイン・声調を一括管理できる教員専用ツール。出欠確認や授業時の指名、発音確認に活用できます。",
+    teacherNote: "授業中のスムーズな学生指名や、名簿確認・出欠管理に重宝します。",
+    isFeatured: true,
+    tags: ["教員専用", "名簿", "学生管理", "ピンイン", "授業支援"],
+    estimatedTime: "随時"
+  },
+  {
+    id: "speaker-selector",
+    title: "教員用 発表者指名App",
+    subtitle: "课堂随机点名与展示记录系统",
+    category: "teacher",
+    categoryName: "教員用・指名",
+    level: "all",
+    levelName: "教員・管理者",
+    hskLevel: "教員専用",
+    icon: "fa-shuffle",
+    iconColor: "text-violet-600 bg-violet-50 dark:bg-violet-950/30",
+    badgeColor: "bg-violet-100 text-violet-800 border-violet-200",
+    url: "https://script.google.com/macros/s/AKfycbwP7gDsHTunD9CRHjjdHavrF2bzdr6_9Tt_WQOhX03sNDFGiklKd_bIDF_aoifWlPk/exec",
+    description: "授業中の発表者や回答者を公平・ランダムに指名し、「記録」と「設定」シートへ発表履歴・回数を自動保存できる教員支援ツール。",
+    teacherNote: "指名後に自動記録されるため、発表回数の偏りを防ぎ、公平でアクティブな授業進行が可能です。",
+    isFeatured: true,
+    tags: ["教員専用", "発表者指名", "ランダム指名", "自動記録", "スプレッドシート連携"],
+    estimatedTime: "授業中随時"
+  },
+  {
+    id: "constitution-test",
+    title: "九種体質測定App",
+    subtitle: "中医九种体质测评与养生指导",
+    category: "tools",
+    categoryName: "ツール・管理",
+    level: "all",
+    levelName: "全対象（健康・文化）",
+    hskLevel: "健康・文化",
+    icon: "fa-leaf",
+    iconColor: "text-emerald-600 bg-emerald-50 dark:bg-emerald-950/30",
+    badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
+    url: "https://script.google.com/macros/s/AKfycbwwj8x65kRnhHKgbOJMSKOss2BNrJBDzvlvY95XR8Tcsyn1NnZZ2todHrlp_PqzWw/exec",
+    description: "中医学（中国伝統医学）に基づく9つの体質タイプを自己診断できるヘルスケアツール。レーダーチャート分析、AIによる養生アドバイス、食材の性質（温・寒・平）検索機能を備えています。",
+    teacherNote: "留学生や学習者の日々の体調管理・食養生はもちろん、中医学や中国の生活文化に触れるアクティビティとしても活用できます！",
+    isFeatured: true,
+    tags: ["九種体質", "体質チェック", "中医学", "健康管理", "AIアドバイス", "食養生"],
+    estimatedTime: "3〜5分"
+  }
+];
+
+// カテゴリ定義
+const CATEGORIES = [
+  { id: "all", name: "すべて", icon: "fa-grip" },
+  { id: "grammar", name: "文法・クイズ", icon: "fa-spell-check" },
+  { id: "speaking", name: "スピーキング・会話", icon: "fa-microphone-lines" },
+  { id: "tools", name: "ツール・管理", icon: "fa-screwdriver-wrench" },
+  { id: "comprehensive", name: "総合トレーニング", icon: "fa-cubes" },
+  { id: "teacher", name: "教員用・支援", icon: "fa-chalkboard-user" }
+];
+
+// レベル定義
+const LEVELS = [
+  { id: "all", name: "全レベル" },
+  { id: "beginner", name: "入門・初級" },
+  { id: "intermediate", name: "中級" },
+  { id: "advanced", name: "上級" }
+];

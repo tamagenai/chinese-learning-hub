@@ -1,0 +1,110 @@
+/* Chinese Learning Hub - Custom Styles (Fresh Sky Blue Edition) */
+
+:root {
+  --primary: #0284c7;
+  --primary-hover: #0369a1;
+  --accent-cyan: #06b6d4;
+  --accent-emerald: #10b981;
+}
+
+/* スムーズスクロール */
+html {
+  scroll-behavior: smooth;
+}
+
+/* カスタムスクロールバー */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f9ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bae6fd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7dd3fc;
+}
+
+/* カードホバーエフェクト */
+.app-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.app-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(2, 132, 199, 0.12), 0 6px 12px -4px rgba(2, 132, 199, 0.06);
+}
+
+/* トースト通知 */
+.toast {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* モーダル表示アニメーション */
+.modal-backdrop {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.modal-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-container {
+  transform: scale(0.95) translateY(10px);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modal-backdrop.active .modal-container {
+  transform: scale(1) translateY(0);
+}
+
+/* 爽やかで明るいスカイブルー＆シアンのグラデーション */
+.hero-gradient {
+  background: linear-gradient(135deg, #0369a1 0%, #0284c7 35%, #0ea5e9 70%, #06b6d4 100%);
+  position: relative;
+}
+
+.hero-gradient::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(56, 189, 248, 0.15) 40%, transparent 70%);
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+.subtle-mesh {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(14, 165, 233, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.05) 0px, transparent 50%);
+}
+
+/* バッジの点滅 */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.badge-pulse {
+  animation: pulse-subtle 2s infinite ease-in-out;
+}
