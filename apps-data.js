@@ -155,6 +155,25 @@ const CHINESE_APPS_DATA = [
     isFeatured: true,
     tags: ["カレンダー", "祝日", "旧暦・農暦", "二十四節気", "年中行事", "日付表現", "ツール"],
     estimatedTime: "1〜2分"
+  },
+  {
+    id: "hsk-menu",
+    title: "HSK 1級〜5級 対策総合メニュー",
+    subtitle: "HSK 1-5级 备考题库与学习菜单",
+    category: "comprehensive",
+    categoryName: "総合・検定対策",
+    level: "all",
+    levelName: "入門〜上級（1〜5級）",
+    hskLevel: "HSK 1-5級",
+    icon: "fa-award",
+    iconColor: "text-amber-600 bg-amber-50 dark:bg-amber-950/30",
+    badgeColor: "bg-amber-100 text-amber-800 border-amber-200",
+    url: "https://tamagenai.github.io/HSKMENU/",
+    description: "入門の1級（150語）から上級の5級（2,500語）まで、各レベルのHSK問題集・対策アプリへワンタップでアクセスできる総合メニュー。検定試験対策やレベル別学習に最適です。",
+    teacherNote: "HSKの受験対策や、学生個々の習熟度・目標級に応じた自主学習用ポータルとして大活躍します！",
+    isFeatured: true,
+    tags: ["HSK対策", "HSK1〜5級", "検定対策", "レベル別", "問題演習", "単語", "総合"],
+    estimatedTime: "5〜15分"
   }
 ];
 
