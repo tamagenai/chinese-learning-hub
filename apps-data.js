@@ -136,6 +136,25 @@ const CHINESE_APPS_DATA = [
     isFeatured: true,
     tags: ["九種体質", "体質チェック", "中医学", "健康管理", "AIアドバイス", "食養生"],
     estimatedTime: "3〜5分"
+  },
+  {
+    id: "chinese-calendar",
+    title: "中国語カレンダーApp",
+    subtitle: "中文日历与传统节假日查询",
+    category: "tools",
+    categoryName: "ツール・文化",
+    level: "all",
+    levelName: "全対象（日付・年中行事）",
+    hskLevel: "実用・文化",
+    icon: "fa-calendar-days",
+    iconColor: "text-rose-600 bg-rose-50 dark:bg-rose-950/30",
+    badgeColor: "bg-rose-100 text-rose-800 border-rose-200",
+    url: "https://script.google.com/macros/s/AKfycbwmt2qXj0yDPr4EcAoz9ikoIaug8T8dlQuqOZU1v0X6rmcYvGj3cv65zZKkCNO4toQ/exec",
+    description: "中国の伝統祝日（春節、端午節、中秋節など）や農暦（旧暦）、二十四節気、日々の中国語日付表現を確認できるカレンダーツール。授業のウォームアップや年中行事の学びに最適です。",
+    teacherNote: "授業冒頭の「今日は中国語で何月何日？何曜日？」の確認や、中国の祝祭日・文化的背景の紹介、スケジュール管理に便利です！",
+    isFeatured: true,
+    tags: ["カレンダー", "祝日", "旧暦・農暦", "二十四節気", "年中行事", "日付表現", "ツール"],
+    estimatedTime: "1〜2分"
   }
 ];
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 登録アプリ一覧 (全7件)
+## 🌟 登録アプリ一覧 (全8件)
 
 1. **🇨🇳 中国語名前チェッカー**
    * **URL**: `https://script.google.com/macros/s/AKfycbyOIG9DZtD_z-8CrB800megG-7g_cXJgDwbghtpZURWPX2MZnDJwi30vKHDfAxCRDA/exec`
@@ -31,7 +31,7 @@
    * **対象**: 教員・管理者（教員用・名簿）
    * **概要**: 学生の氏名・中国語表記・ピンイン・声調を一括管理。出欠確認や授業時の指名、発音指導に活用可能。
 
-6. **🎲 教員用 発表者指名App** ★NEW!
+6. **🎲 教員用 発表者指名App**
    * **URL**: `https://script.google.com/macros/s/AKfycbwP7gDsHTunD9CRHjjdHavrF2bzdr6_9Tt_WQOhX03sNDFGiklKd_bIDF_aoifWlPk/exec`
    * **対象**: 教員・管理者（教員用・指名）
    * **概要**: 授業中の発表者を公平・ランダムに指名し、「記録」と「設定」シートへ発表履歴や回数を自動反映。
@@ -40,6 +40,11 @@
    * **URL**: `https://script.google.com/macros/s/AKfycbwwj8x65kRnhHKgbOJMSKOss2BNrJBDzvlvY95XR8Tcsyn1NnZZ2todHrlp_PqzWw/exec`
    * **対象**: 全対象（ツール・管理 / 中医学・健康支援）
    * **概要**: 中医学（中国伝統医学）に基づく9つの体質タイプを自己診断。レーダーチャート分析、AIによる養生アドバイス、食材の性質（温・寒・平）検索など充実の健康管理・食養生アプリ。
+
+8. **📅 中国語カレンダーApp** ★NEW!
+   * **URL**: `https://script.google.com/macros/s/AKfycbwmt2qXj0yDPr4EcAoz9ikoIaug8T8dlQuqOZU1v0X6rmcYvGj3cv65zZKkCNO4toQ/exec`
+   * **対象**: 全対象（ツール・文化 / 日付・年中行事）
+   * **概要**: 中国の伝統祝日（春節、端午節、中秋節など）や農暦（旧暦）、二十四節気、中国語の日付表現を確認できるカレンダーツール。授業のウォームアップや文化紹介に最適。
 
 ---
 
